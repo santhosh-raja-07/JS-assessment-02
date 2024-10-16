@@ -1,0 +1,49 @@
+body{
+   background-color: aliceblue;
+}
+table {
+    width: 30%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button{
+   display: flex;
+   justify-content: space-evenly;
+}
+.container{
+ background-color: blue;
+ padding-bottom: 3rem;
+ padding-top: 2rem;
+ box-shadow: gray 2px 4px 7px 10px ;
+ color: white;
+}
+form input{
+    width: 300px;
+}
+form button {
+    width: 150px;
+}
+button{
+   margin-top: 1rem;
+   background-color: orange;
+   cursor: pointer;
+}
+.table{
+   display: flex;
+   justify-content: center;
+}
